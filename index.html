@@ -254,13 +254,14 @@ body, html {
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
             </div>
             <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="_replyto">
+              <input class="w3-input w3-border" type="text" placeholder="Email" name="_replyto">
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
           <button class="w3-button w3-right w3-section" style="background-color: #4cbe8e;color:white" type="submit" name="_submit">
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </form>
       </div>
     </div>
