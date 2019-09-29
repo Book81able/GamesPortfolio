@@ -65,6 +65,10 @@ body, html {
   min-height: 400px;
 }
 
+.copy{
+  display: none;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
@@ -120,7 +124,26 @@ body, html {
             <div class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" style="width:400px;">GAME MAKER</div>
           </div>
         </div>
+    </div>
+  </div>
 </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16 Fatface">
+  <div class="w3-quarter w3-section">
+    Featured On<br>
+    <span class="w3-xlarge">VOX and SLATE</span>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">7+</span><br>
+    Years of Experience
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">5</span><br>
+    Shipped Games
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">32K</span><br>
+    Itch.io Game Views
   </div>
 </div>
 
@@ -131,35 +154,84 @@ body, html {
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m8">
-      <img src="https://i.imgur.com/yUKab9O.png" style="width:100%; padding-bottom: 2%" onclick="onClick(this)" class="w3-hover-opacity" alt="The Beauty of Poppies">
+    <div class="w3-col m8" onclick="onClick(this)">
+      <div class = "copy">
+          <p class = "role">Artist and Sound Designer</p>
+          <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+        </div>
+      <img src="https://i.imgur.com/yUKab9O.png" style="width:100%; padding-bottom: 2%" class="w3-hover-opacity" alt="The Beauty of Poppies">
     </div>
 
-    <div class="w3-col m4">
-      <img src="https://i.imgur.com/nm3zTta.png" style="width:101.5%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Snifelheim">
+    <div class="w3-col m4" onclick="onClick(this)">
+      <div class = "copy">
+          <p class = "role">Artist and Graphic Designer</p>
+          <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+        </div>
+      <img src="https://i.imgur.com/nm3zTta.png" style="width:101.5%;" class="w3-hover-opacity" alt="Snifelheim">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m5">
-      <img src="https://img.itch.zone/aW1nLzIzNjY3MTkucG5n/315x250%23c/zgGTJq.png" style="width:100.5%; padding-bottom:2% " onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    <div class="w3-col m5" onclick="onClick(this)">
+        <div class = "copy">
+          <p class = "role">Creator</p>
+          <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+          <iframe class = "frame" src="https://itch.io/embed/464721?border_width=0&amp;fg_color=222222" width="550" height="165" frameborder="0"></iframe>
+        </div>
+        <img src="https://img.itch.zone/aW1nLzIzNjY3MTkucG5n/315x250%23c/zgGTJq.png" style="width:100.5%; padding-bottom:2% " id="image" class="w3-hover-opacity" alt="30-50 Feral Hogs">
     </div>
 
-    <div class="w3-col m7">
-      <img src="https://img.itch.zone/aW1nLzIyNDQ5NjUucG5n/original/jgoeSB.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    <div class="w3-col m7" onclick="onClick(this)">
+      <div class = "copy">
+          <p class = "role">Lead Programmer and Writer</p>
+          <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+          <iframe class = "frame" src="https://itch.io/embed/445242" width="552" height="167" frameborder="0"></iframe>
+        </div>
+      <img src="https://img.itch.zone/aW1nLzIyNDQ5NjUucG5n/original/jgoeSB.png" style="width:100%;" class="w3-hover-opacity" alt="Love Hunt">
+    </div>
+    <div id = "moreStuff" style="display:none">
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m5" onclick="onClick(this)">
+            <div class = "copy">
+              <p class = "role">Creator</p>
+              <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+              <iframe class = "frame" src="https://itch.io/embed/464721?border_width=0&amp;fg_color=222222" width="550" height="165" frameborder="0"></iframe>
+            </div>
+            <img src="https://img.itch.zone/aW1nLzIzNjY3MTkucG5n/315x250%23c/zgGTJq.png" style="width:100.5%; padding-bottom:2% " id="image" class="w3-hover-opacity" alt="30-50 Feral Hogs">
+        </div>
+
+        <div class="w3-col m7" onclick="onClick(this)">
+          <div class = "copy">
+              <p class = "role">Lead Programmer and Writer</p>
+              <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+              <iframe class = "frame" src="https://itch.io/embed/445242" width="552" height="167" frameborder="0"></iframe>
+            </div>
+          <img src="https://img.itch.zone/aW1nLzIyNDQ5NjUucG5n/original/jgoeSB.png" style="width:100%;" class="w3-hover-opacity" alt="Love Hunt">
+        </div>
+      </div>
     </div>
     <div class="w3-row-padding w3-center w3-section">
-    <button class="w3-button w3-center w3-padding-large" style="margin-top:64px;background-color: #396e58; color:white;">LOAD MORE GAMES AND ART</button>
+      <button class="w3-button w3-center w3-padding-large " style="margin-top:64px;background-color: #396e58; color:white;" onclick="addMore(this)">SHOW MORE GAMES AND ART</button>
     </div>
   </div>
 </div>
 
 <!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
+<div id="modal01" class="w3-modal w3-black">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image" onclick="parentElement.style.display='none'" ><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-transparent w3-padding-64">
+      <h1 id="caption" class="w3-opacity w3-center w3-large Fatface" style="font-size:60px !important"></h1>
+      <div class = "w3-row-padding">
+        <div class = "w3-half">
+          <img id="img01" class="w3-image" src="">
+          <h3>Role: <span id="role" style="font-family:'Lato';"></span></h3>
+          <iframe src="" id = "ifr" width="100%" height="167" frameborder="1"></iframe>
+        </div>
+        <div class = "w3-half">
+          <p id="desc"></p>
+          <div id="img02"></div>
+        </div>
+      </div>
   </div>
 </div>
 
@@ -192,25 +264,6 @@ body, html {
     </div>
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16 Fatface">
-  <div class="w3-quarter w3-section">
-    Featured On<br>
-    <span class="w3-xlarge">VOX and SLATE</span>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">7+</span><br>
-    Years of Experience
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">5</span><br>
-    Shipped Games
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">32K</span><br>
-    Itch.io Game Views
-  </div>
-</div>
-
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
@@ -236,7 +289,7 @@ body, html {
 <div class = "w3-light-grey">
   <div class="w3-content w3-container w3-padding-64 w3-light-grey" id="contact">
     <h3 class="w3-center">Please Get In Touch!</h3>
-
+    <p class="w3-center" style="size:30px">If you have any questions or just want to get in touch you can message me here!</p>
     <div class="w3-row w3-padding-32 w3-section">
       <div class="w3-col m4 w3-container">
         <img src="GreenRectangles/Wow_Green.png" class="w3-image w3-round" style="width:100%; height:280px">
@@ -283,10 +336,41 @@ body, html {
 <script>
 // Modal Image Gallery
 function onClick(element) {
-  document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
+  var mainImage = document.getElementById("img01")
   var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
+  var roleText = document.getElementById("role");
+  var descriptionText = document.getElementById("desc");
+  var gameFrame = document.getElementById("ifr");
+  var secondImage = document.getElementById("img02")
+
+  var copyBlock = element.getElementsByClassName("copy")[0];
+
+  descriptionText.innerHTML = copyBlock.getElementsByClassName("description")[0].innerHTML
+  roleText.innerHTML = copyBlock.getElementsByClassName("role")[0].innerHTML;
+  captionText.innerHTML = element.getElementsByTagName("img")[0].alt;
+  mainImage.src = element.getElementsByTagName("img")[0].src;
+  if(copyBlock.getElementsByClassName("frame").length>=1){
+    gameFrame.src = copyBlock.getElementsByClassName("frame")[0].src
+    gameFrame.style.display = "block"
+  }else{
+    gameFrame.src = ""
+    gameFrame.style.display = "none"
+  }
+  for (img in copyBlock.getElementsByTagName("img")){
+    secondImage.appendChild(img);
+  }
+}
+
+function addMore(element) { 
+  var more = document.getElementById("moreStuff")
+  if(more.style.display == "none"){
+    more.style.display = "block";
+    element.innerHTML = "SHOW LESS"
+  }else{
+    more.style.display = "none";
+    element.innerHTML = "SHOW MORE GAMES AND ART";
+  }
 }
 
 // Change style of navbar on scroll
