@@ -128,7 +128,7 @@ body, html {
   </div>
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16 Fatface">
+<div class="w3-row w3-center w3-black w3-padding-16 Fatface">
   <div class="w3-quarter w3-section">
     Featured On<br>
     <span class="w3-xlarge">VOX and SLATE</span>
@@ -147,7 +147,17 @@ body, html {
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+
+
+<!--
+
+==============================
+
+ Container (Portfolio Section) 
+
+==============================
+
+-->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center Fatface">MY WORK</h3>
   <p class="w3-center"><em>Here are some of my best games.<br> Click on the images for more details</em></p><br>
@@ -157,6 +167,7 @@ body, html {
     <div class="w3-col m8" onclick="onClick(this)">
       <div class = "copy">
           <p class = "role">Artist and Sound Designer</p>
+          <p class = "genre">Turn Based RPG</p>
           <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
         </div>
       <img src="https://i.imgur.com/yUKab9O.png" style="width:100%; padding-bottom: 2%" class="w3-hover-opacity" alt="The Beauty of Poppies">
@@ -165,6 +176,7 @@ body, html {
     <div class="w3-col m4" onclick="onClick(this)">
       <div class = "copy">
           <p class = "role">Artist and Graphic Designer</p>
+          <p class = "genre">Tabletop Party RPG</p>
           <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
         </div>
       <img src="https://i.imgur.com/nm3zTta.png" style="width:101.5%;" class="w3-hover-opacity" alt="Snifelheim">
@@ -175,6 +187,7 @@ body, html {
     <div class="w3-col m5" onclick="onClick(this)">
         <div class = "copy">
           <p class = "role">Creator</p>
+          <p class = "genre">Arcade Top Down Shooter</p>
           <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
           <iframe class = "frame" src="https://itch.io/embed/464721?border_width=0&amp;fg_color=222222" width="550" height="165" frameborder="0"></iframe>
         </div>
@@ -184,16 +197,20 @@ body, html {
     <div class="w3-col m7" onclick="onClick(this)">
       <div class = "copy">
           <p class = "role">Lead Programmer and Writer</p>
-          <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+          <p class = "genre">Monster Dating Sim</p>
+          <p class = "description">A dating sim made during SIP Jam at Becker College. <br>
+
+                Play as a lonely human who finds themselves enrolled for a week in Creature Academy. Disguised as a witch, you interact with your peers over 4 days. Armed with your charisma and cheap magic set you try to survive a week in high school. At the end of the week is Halloween night. You will either find love... or your fellow students will find out your secret</p>
           <iframe class = "frame" src="https://itch.io/embed/445242" width="552" height="167" frameborder="0"></iframe>
         </div>
       <img src="https://img.itch.zone/aW1nLzIyNDQ5NjUucG5n/original/jgoeSB.png" style="width:100%;" class="w3-hover-opacity" alt="Love Hunt">
     </div>
-    <div id = "moreStuff" style="display:none">
+    <div id = "moreStuff" class="w3-animate-top" style="display:none">
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m5" onclick="onClick(this)">
             <div class = "copy">
               <p class = "role">Creator</p>
+              <p class = "genre"></p>
               <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
               <iframe class = "frame" src="https://itch.io/embed/464721?border_width=0&amp;fg_color=222222" width="550" height="165" frameborder="0"></iframe>
             </div>
@@ -203,7 +220,7 @@ body, html {
         <div class="w3-col m7" onclick="onClick(this)">
           <div class = "copy">
               <p class = "role">Lead Programmer and Writer</p>
-              <p class = "description">Based on the short-lived twitter meme <i>30-50 Feral Hogs</i> is a game that went from conception to release in 8 hours. Despite the simplicity the game is by far the most popular thing I've made getting both 32k views and mentions on Vox, Slate, Forbes, and the Washington Post. The game is playable online if you want to give it a try.</p>
+              <p class = "description"></p>
               <iframe class = "frame" src="https://itch.io/embed/445242" width="552" height="167" frameborder="0"></iframe>
             </div>
           <img src="https://img.itch.zone/aW1nLzIyNDQ5NjUucG5n/original/jgoeSB.png" style="width:100%;" class="w3-hover-opacity" alt="Love Hunt">
@@ -225,10 +242,11 @@ body, html {
         <div class = "w3-half">
           <img id="img01" class="w3-image" src="">
           <h3>Role: <span id="role" style="font-family:'Lato';"></span></h3>
+          <h3>Genre: <span id="gen" style="font-family:'Lato';"></span></h3>
           <iframe src="" id = "ifr" width="100%" height="167" frameborder="1"></iframe>
         </div>
         <div class = "w3-half">
-          <p id="desc"></p>
+          <p id="desc" style = "font-size:20px"></p>
           <div id="img02"></div>
         </div>
       </div>
@@ -245,10 +263,8 @@ body, html {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Picture</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p class="w3-center"><em></em></p>
+  <p></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
@@ -297,7 +313,7 @@ body, html {
       <div class="w3-col m8 w3-panel">
         <div class="w3-large w3-margin-bottom">
           <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Boston, Massachusets<br>
-          <i class="fab fa-twitter fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Twitter: @book81able<br>
+          <i class="fab fa-twitter fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Twitter: @Elijah_C_Cobb<br>
           <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ecobb81@gmail.com<br>
         </div>
         <p>Send me a message!</p>
@@ -325,10 +341,10 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fab fa-twitter w3-hover-opacity"></i>
-    <i class="fab fa-linkedin w3-hover-opacity"></i>
-    <i class="fab fa-itch-io w3-hover-opacity"></i>
-    <i class="fab fa-github w3-hover-opacity"></i>
+    <a href="https://twitter.com/Elijah_C_Cobb"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/elijah-cobb/"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+    <a hfef="https://elijahcobb.itch.io/"><i class="fab fa-itch-io w3-hover-opacity"></i></a>
+    <a href="https://github.com/Book81able"><i class="fab fa-github w3-hover-opacity"></i></a>
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
@@ -342,7 +358,8 @@ function onClick(element) {
   var roleText = document.getElementById("role");
   var descriptionText = document.getElementById("desc");
   var gameFrame = document.getElementById("ifr");
-  var secondImage = document.getElementById("img02")
+  var genreDesc = document.getElementById("gen");
+  var secondImage = document.getElementById("img02");
 
   var copyBlock = element.getElementsByClassName("copy")[0];
 
@@ -350,6 +367,7 @@ function onClick(element) {
   roleText.innerHTML = copyBlock.getElementsByClassName("role")[0].innerHTML;
   captionText.innerHTML = element.getElementsByTagName("img")[0].alt;
   mainImage.src = element.getElementsByTagName("img")[0].src;
+  genreDesc.innerHTML = copyBlock.getElementsByClassName("genre")[0].innerHTML
   if(copyBlock.getElementsByClassName("frame").length>=1){
     gameFrame.src = copyBlock.getElementsByClassName("frame")[0].src
     gameFrame.style.display = "block"
