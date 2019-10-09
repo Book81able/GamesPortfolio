@@ -1,2 +1,3 @@
 # GamesPortfolio
-Elijah Cobb Game Portfolio
+
+Wesbsite for my game portfolio: http://elijahcobbgames.com
