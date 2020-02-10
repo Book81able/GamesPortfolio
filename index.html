@@ -35,6 +35,11 @@ a:hover{
   font-family: "Abril Fatface";
 }
 
+#bottomBit {
+  padding: 20px;
+  border-style: dashed;
+}
+
 /* Create a Parallax Effect */
 .bgimg-2, .bgimg-3, .bgimg-4{
   background-attachment: fixed !important;
@@ -174,28 +179,6 @@ a:hover{
   <p class="w3-center"><em>Here are some of my best games.<br> Click on the images for more details</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m8" onclick="onClick(this)">
-      <img src="https://i.imgur.com/yUKab9O.png" style="width:100%; padding-bottom: 2%" class="w3-hover-opacity" alt="The Beauty of Poppies">
-      <div class = "copy">
-          <p class = "role">Artist and Sound Designer</p>
-          <p class = "genre">RPG</p>
-          <p class = "description">Set in Afganistan near the start of the war. <i>The Beauty of Poppies</i> is the story of a solider's daily life at camp and his struggle between helping a poor opium farmer or a girl's school funded by illegal miltary operations. My role in <i>Poppies</i> was as an artist for the NPC's in the game and game enviroments. I also designed ambient noises for the game's different spaces.</p>
-          <img src="https://pbs.twimg.com/media/D-LJk_vXsAYbCCB?format=jpg&name=medium">
-      </div>
-    </div>
-
-    <div class="w3-col m4" onclick="onClick(this)">
-       <img src="https://i.imgur.com/nm3zTta.png" style="width:101.5%;" class="w3-hover-opacity" alt="Snifelheim">
-      <div class = "copy">
-        <p class = "role">Artist and Graphic Designer</p>
-        <p class = "genre">Tabletop Party RPG</p>
-        <p class = "description">The All Father has the cold and it's up to you to use your runes to help him. Collect ingredients from the nine-realms and prepare for Ragnorock with your fellow Norse gods. I was in charge of all of the visuals for <i>Snifelheim</i> including cards, design, board, and promotional material. <br>I used a combination of Illustrator, Photoshop, and inDesign for the assets. <br> I even made a <span>font</span>!</p>
-        <img src = "https://media-exp1.licdn.com/media-proxy/ext?w=791&h=1024&f=n&hash=MdQeq8O8Y1X%2Bh5bhoTiXSz%2FDKKg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWjgcZLYLLCjrEASeH9UjQAyKee1SGPnG47of465etslg8XlJJj5agYUbhl4lWdI">
-      </div>
-    </div>
-  </div>
-
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m5" onclick="onClick(this)">
       <img src="https://img.itch.zone/aW1nLzIzNjY3MTkucG5n/315x250%23c/zgGTJq.png" style="width:100.5%; padding-bottom:2% " id="image" class="w3-hover-opacity" alt="30-50 Feral Hogs">
@@ -216,15 +199,40 @@ a:hover{
           <p class = "description">A dating sim made during SIP Jam at Becker College. <br>
 
                 Play as a lonely human who finds themselves enrolled for a week in Creature Academy. Disguised as a witch, you interact with your peers over 4 days. Armed with your charisma and cheap magic set you try to survive a week in high school. At the end of the week is Halloween night. You will either find love... or your fellow students will find out your secret.<br>
-            	My personal role in this project was writing the Skeleton branch along with programming the game using RenPy.<br>
+              My personal role in this project was writing the Skeleton branch along with programming the game using RenPy.<br>
               The game also has a Russian translation by a very kind fan localization team! </p>
           <iframe class = "frame" src="https://itch.io/embed/445242?bg_color=ea801c&amp;fg_color=000000&amp;link_color=000000&amp;border_color=875528" width="552" height="167" frameborder="0"></iframe>
           <img src="https://img.itch.zone/aW1hZ2UvNDQ1MjQyLzIyNTA3NjAucG5n/original/9krOwz.png">
+          <img src="https://img.itch.zone/aW1hZ2UvNDQ1MjQyLzIyNTA3NjEucG5n/original/w6W0qp.png">
         </div>
     </div>
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m8" onclick="onClick(this)">
+      <img src="https://i.imgur.com/yUKab9O.png" style="width:100%; padding-bottom: 2%" class="w3-hover-opacity" alt="The Beauty of Poppies">
+      <div class = "copy">
+          <p class = "role">Artist and Sound Designer</p>
+          <p class = "genre">RPG</p>
+          <p class = "description">Set in Afganistan near the start of the war. <i>The Beauty of Poppies</i> is the story of a solider's daily life at camp and his struggle between helping a poor opium farmer or a girl's school funded by illegal miltary operations. My role in <i>Poppies</i> was as an artist for the NPC's in the game and game enviroments. I also designed ambient noises for the game's different spaces.</p>
+          <img src="https://pbs.twimg.com/media/D-LJk_vXsAYbCCB?format=jpg&name=medium">
+      </div>
+    </div>
+
+    <div class="w3-col m4" onclick="onClick(this)">
+       <img src="https://i.imgur.com/nm3zTta.png" style="width:101.5%;" class="w3-hover-opacity" alt="Snifelheim">
+      <div class = "copy">
+        <p class = "role">Artist and Graphic Designer</p>
+        <p class = "genre">Tabletop Party RPG</p>
+        <p class = "description">The All Father has the cold and it's up to you to use your runes to help him. Collect ingredients from the nine-realms and prepare for Ragnorock with your fellow Norse gods. I was in charge of all of the visuals for <i>Snifelheim</i> including cards, design, board, and promotional material. <br>I used a combination of Illustrator, Photoshop, and inDesign for the assets. <br> I even made a <span>font</span>!</p>
+        <img src = "https://media-exp1.licdn.com/media-proxy/ext?w=791&h=1024&f=n&hash=MdQeq8O8Y1X%2Bh5bhoTiXSz%2FDKKg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWjgcZLYLLCjrEASeH9UjQAyKee1SGPnG47of465etslg8XlJJj5agYUbhl4lWdI">
+        <img src = "https://i.imgur.com/RJcoGgu.png">
+      </div>
+    </div>
+  </div>
+
+  
     </div>
     <!-- MORE STUFF -->
-    <div id = "moreStuff" class="w3-animate-top" style="display:none">
+    <div id = "moreStuff" class="w3-animate-top" style="display:block">
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m7" onclick="onClick(this)">
           <img src="https://files.slack.com/files-pri/TMY9JE7SR-FQ7MPKAP2/logo.png" style="width:102%"id="image" class="w3-hover-opacity" alt="N30N">
@@ -247,6 +255,7 @@ a:hover{
             </div>
         </div>
       </div>
+    </div>
       <!--
       <h1>Works In Progress</h1>
       <div class="w3-row-padding w3-center w3-section">
@@ -282,10 +291,12 @@ a:hover{
         </div>
       </div>
     -->
+    <!--
     </div>
     <div class="w3-row-padding w3-center w3-section">
       <button class="w3-button w3-center w3-padding-large " style="margin-top:64px;background-color: #396e58; color:white;" onclick="addMore(this)">SHOW MORE GAMES</button>
     </div>
+  -->
   </div>
 </div>
 
@@ -303,8 +314,9 @@ a:hover{
         </div>
         <div class = "w3-half">
           <p id="desc" style = "font-size:20px"></p>
-          <div id="img02"></div>
         </div>
+      </div>
+      <div id = "bottomBit">
       </div>
   </div>
 </div>
@@ -416,12 +428,10 @@ function onClick(element) {
   var descriptionText = document.getElementById("desc");
   var gameFrame = document.getElementById("ifr");
   var genreDesc = document.getElementById("gen");
-  var secondImage = document.getElementById("img02");
+  var imageBit = document.getElementById("bottomBit");
 
   var copyBlock = element.getElementsByClassName("copy")[0];
-
-  secondImage.innerHTML = "";
-
+  imageBit.innerHTML = "";
   descriptionText.innerHTML = copyBlock.getElementsByClassName("description")[0].innerHTML
   roleText.innerHTML = copyBlock.getElementsByClassName("role")[0].innerHTML;
   captionText.innerHTML = element.getElementsByTagName("img")[0].alt;
@@ -439,7 +449,7 @@ function onClick(element) {
   var imgList = copyBlock.getElementsByTagName("img")
   for(i = 0; i <imgList.length;i++){
     imgList[i].style.width = "100%";
-    secondImage.appendChild(imgList[i].cloneNode())
+    bottomBit.appendChild(imgList[i].cloneNode())
   }
 }
 
