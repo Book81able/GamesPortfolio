@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/Wwise/","result":{"data":{"allMarkdownRemark":{"totalCount":0,"edges":[]}},"pageContext":{"tag":"Wwise"}},"staticQueryHashes":["1734433022"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/Wwise/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/gourd/"},"frontmatter":{"title":"Gourd Getaway"}}}]}},"pageContext":{"tag":"Wwise"}},"staticQueryHashes":["1734433022"]}
